@@ -243,3 +243,29 @@ span#two{
 #chose-main{
     padding: 20px 0px;
 }
+.section-image img {
+    width: 100%;
+    height: auto;
+}
+.pImage img {
+    width: 50%;
+    
+}
+
+.row.pprocessblock {
+    background: #00ff88d4;
+    padding: 7px 49px;
+    margin-bottom: 11px;
+    clip-path: polygon(9% 0, 100% 0%, 91% 100%, 0 100%);
+}
+.pImage {
+    margin-top: 10px;
+    
+}
+.processMain{
+    padding: 20px 0px;
+}
+.section-image {
+    /* height: 100%; */
+    margin-top: 90px;
+}

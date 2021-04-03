@@ -38,6 +38,7 @@ ul.navbar-nav.ml-auto {
 
 .banner-section {
     overflow: hidden;
+    height: 100vh;
 }
 .btn-section{
     margin: auto;
@@ -63,10 +64,7 @@ button:hover span{
     padding: 6px 0px;
    
 }
-.bg.scrolled{
-    background:#1ea6ff;
-   
-}
+
 ul.dropdown-menu {
     margin-top: -1px!important;
 }
@@ -81,6 +79,9 @@ ul.dropdown-menu{
     -ms-transition: transform 3s!important;
     -o-transition: transform 3s!important;
 
+}
+.bg{
+    background: #03c86c;
 }
 li.nav-item a {
     font-size: 17px;
@@ -269,3 +270,26 @@ span#two{
     /* height: 100%; */
     margin-top: 90px;
 }
+.animated{
+    animation:animated 2s infinite alternate-reverse both;
+    -webkit-animation:animated 2s infinite alternate-reverse both;
+}
+@keyframes animated {
+    0% {
+        transform: translateX(-10px);
+        -webkit-transform: translateX(-10px);
+        -moz-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px);
+}
+    100% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px);
+}
+  }
+  
+ 
+

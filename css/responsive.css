@@ -26,5 +26,16 @@
             -ms-transform: scale(1.1);
             -o-transform: scale(1.1);
 }
+
+
+.rightImage { order: 1;  }
+#banner-content { order: 2; }
+.banner-section {
+    
+    height: auto;
+}
+.main-header{
+    margin-top: 100px;;
+}
     
 }

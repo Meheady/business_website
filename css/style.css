@@ -68,8 +68,11 @@ button:hover span{
 ul.dropdown-menu {
     margin-top: -1px!important;
 }
-ul.dropdown-menu{
-  
+.bg{
+    background: #03c86c;
+}
+.bg.scrolled{
+    background-color: #1FA2FF;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -80,9 +83,7 @@ ul.dropdown-menu{
     -o-transition: transform 3s!important;
 
 }
-.bg{
-    background: #03c86c;
-}
+
 li.nav-item a {
     font-size: 17px;
     color: white!important;
@@ -101,8 +102,7 @@ ul.dropdown-menu{
     color: brown;
     font-weight: bold;
 }
-nav.navbar.navbar-expand-md.navbar-dark.bg.scrolled {
-   
+nav.navbar.navbar-expand-md.navbar-dark.bg{
     z-index: 11111;
 }
 .content-title p{
@@ -260,7 +260,7 @@ span#two{
     clip-path: polygon(9% 0, 100% 0%, 91% 100%, 0 100%);
 }
 .pImage {
-    margin-top: 10px;
+    margin-top: 27px;
     
 }
 .processMain{
@@ -276,18 +276,18 @@ span#two{
 }
 @keyframes animated {
     0% {
-        transform: translateX(-10px);
-        -webkit-transform: translateX(-10px);
-        -moz-transform: translateX(-10px);
-        -ms-transform: translateX(-10px);
-        -o-transform: translateX(-10px);
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
 }
     100% {
-        transform: translateX(10px);
-        -webkit-transform: translateX(10px);
-        -moz-transform: translateX(10px);
-        -ms-transform: translateX(10px);
-        -o-transform: translateX(10px);
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
 }
   }
   

@@ -326,7 +326,7 @@ span#two{
     color: white;
 }
 .import-link a {
-    color: white;
+    color: rgb(5, 5, 5);
     text-decoration: none;
 }
 .import-link li{
@@ -334,9 +334,12 @@ span#two{
    font-size: 18px;
 }
 .import-link h4, .footer-title h4,.find-loc h4 {
-    background: #ffffff;
-    padding: 6px;
-    color: orange;
+    border-bottom: 2px solid orange; 
+    padding-bottom: 5px;
+    color: #fbfbfb;
+}
+.import-link span, .footer-title span,.find-loc span {
+   
 }
 
  

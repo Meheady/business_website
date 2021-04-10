@@ -6,6 +6,7 @@ $(document).ready(function(){
         autoplay:true,
         margin:13,
         autoplayTimeout:2000,
+        autoplayHoverPause:true,
 
     });
   });

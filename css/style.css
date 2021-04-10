@@ -22,23 +22,41 @@ ul.navbar-nav.ml-auto {
 }
 #banner-content h4{
     text-align:justify;
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 47px;
     
 }
 #banner-content{
     cursor:context-menu;
+    margin-top: 30px;
 }
 #banner-content p{
     font-size: 20px;
     text-align: justify;
+    letter-spacing: 3px;
+    display: none;
 }
 .main-header{
-    margin-top: 200px;;
+    margin-top: 250px;;
 }
 
 .banner-section {
     overflow: hidden;
     height: 100vh;
+}
+button.btn.checkpro {
+    background: #06e07a;
+    color: white;
+    padding: 7px 9px;
+    font-size: 19px;
+    border: 2px solid;
+}
+button.btn.getqui {
+    background: #06e07a;
+    color: white;
+    padding: 7px 9px;
+    font-size: 19px;
+    border: 2px solid;
 }
 .btn-section{
     margin: auto;
@@ -338,8 +356,29 @@ span#two{
     padding-bottom: 5px;
     color: #fbfbfb;
 }
-.import-link span, .footer-title span,.find-loc span {
+.slide-img.item {
+    position: relative;
+}
+
+.onhover {
+    position: absolute;
+    top: 117px;
+    left: 79px;
+    display: none;
+}
+.slide-img.item:hover .onhover {
+    display: block;
+    
+}
+.slide-img.item:hover {
    
+    background-color: #000000d4 ;
+}
+.slide-img.item:hover img{
+    opacity: 0.3;
+}
+.protbtn{
+    background: #1FA2FF;
 }
 
  

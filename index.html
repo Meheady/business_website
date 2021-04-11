@@ -524,7 +524,15 @@
     
     <script>
 
-       
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 85 )) {
+            return false;
+        }
+};
+$(document).bind("contextmenu",function(e){
+  return false;
+    });
 
 
     AOS.init();

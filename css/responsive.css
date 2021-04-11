@@ -29,13 +29,24 @@
 
 
 .rightImage { order: 1;  }
-#banner-content { order: 2; }
+#banner-content { order: 2;
+    padding-bottom: 55px;
+}
 .banner-section {
     
     height: auto;
 }
 .main-header{
     margin-top: 100px;;
+}
+button.btn.checkpro {
+    
+    font-size: 16px;
+    
+}
+button.btn.getqui {
+   
+    font-size: 16px;
 }
     
 }

@@ -524,15 +524,20 @@
     
     <script>
 
-document.onkeydown = function(e) {
-        if (e.ctrlKey || e.ctrlKey && 
-            (e.keyCode === 85 || e.keyCode === 16 )) {
-            return false;
-        }
-};
+// document.onkeydown = function(e) {
+//         if (e.ctrlKey || e.ctrlKey && 
+//             (e.keyCode === 85 || e.keyCode === 16 )) {
+//             return false;
+//         }
+// };
+
+    document.onkeydown = function (e) {
+        return false;
+}
 $(document).bind("contextmenu",function(e){
   return false;
     });
+
 
 
     AOS.init();
